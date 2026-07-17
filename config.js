@@ -113,12 +113,11 @@ const CONFIG = {
 
   // --- Teams ---
   TEAMS: [
-    { id: 1, name: 'Zona 1',  color: '#FF6B6B', emoji: '🔴' },
-    { id: 2, name: 'Zona 2',  color: '#4ECDC4', emoji: '🟢' },
-    { id: 3, name: 'Zona 3',  color: '#FFE66D', emoji: '🟡' },
-    { id: 4, name: 'Zona 4',  color: '#A78BFA', emoji: '🟣' },
-    { id: 5, name: 'Zona 5',  color: '#F97316', emoji: '🟠' },
-    { id: 6, name: 'Zona 6',  color: '#60A5FA', emoji: '🔵' },
+    { id: ID, name: 'Indonesia',  color: '#FF6B6B', emoji: '🔴' },
+    { id: MY, name: 'Malaysia',  color: '#4ECDC4', emoji: '🟢' },
+    { id: PH, name: 'Philippines',  color: '#FFE66D', emoji: '🟡' },
+    { id: SG, name: 'Singapore',  color: '#A78BFA', emoji: '🟣' },
+    { id: VN, name: 'Vietnam',  color: '#F97316', emoji: '🟠' },
   ],
 
   // --- Minimum Duration per Sport (in minutes) — LEGACY ONLY ---
