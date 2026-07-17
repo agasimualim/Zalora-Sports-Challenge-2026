@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Support — GTR Fest 17</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+:root{--bg:#111116;--card:#1c1c25;--card2:#21212c;--border:#2a2a38;--border2:#333345;--text:#f0f0f5;--muted:#888899;--dim:#555566;--orange:#FC5200;--r:8px;--rlg:12px;--sans:'Inter',sans-serif;--mono:'JetBrains Mono',monospace;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;line-height:1.6;min-height:100vh;}
+.wrap{max-width:680px;margin:0 auto;padding:48px 20px 80px;}
+header{display:flex;align-items:center;justify-content:space-between;margin-bottom:40px;padding-bottom:20px;border-bottom:1px solid var(--border);}
+.logo{font-size:16px;font-weight:600;color:var(--text);}
+.back{font-size:13px;color:var(--muted);text-decoration:none;display:flex;align-items:center;gap:6px;transition:color .15s;}
+.back:hover{color:var(--orange);}
+h1{font-size:22px;font-weight:600;margin-bottom:6px;}
+.subtitle{font-size:14px;color:var(--muted);margin-bottom:40px;}
+.section{margin-bottom:32px;}
+.section-title{font-size:11px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);font-family:var(--mono);margin-bottom:14px;}
+.card{background:var(--card);border:0.5px solid var(--border);border-radius:var(--rlg);overflow:hidden;}
+.contact-item{display:flex;align-items:center;gap:14px;padding:16px 20px;border-bottom:0.5px solid var(--border);transition:background .15s;}
+.contact-item:last-child{border-bottom:none;}
+.contact-icon{width:38px;height:38px;border-radius:var(--r);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;background:var(--card2);border:0.5px solid var(--border2);}
+.contact-label{font-size:11px;color:var(--muted);font-family:var(--mono);margin-bottom:2px;}
+.contact-val{font-size:14px;font-weight:500;color:var(--text);}
+.faq-item{padding:18px 20px;border-bottom:0.5px solid var(--border);}
+.faq-item:last-child{border-bottom:none;}
+.faq-q{font-weight:500;font-size:14px;margin-bottom:6px;}
+.faq-a{font-size:13px;color:var(--muted);line-height:1.6;}
+.faq-a code{background:var(--card2);border:0.5px solid var(--border2);border-radius:4px;padding:1px 6px;font-family:var(--mono);font-size:12px;color:var(--text);}
+.steps{display:flex;flex-direction:column;gap:0;}
+.step{display:flex;gap:14px;padding:16px 20px;border-bottom:0.5px solid var(--border);}
+.step:last-child{border-bottom:none;}
+.step-num{width:26px;height:26px;border-radius:50%;background:rgba(252,82,0,.15);color:var(--orange);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;flex-shrink:0;margin-top:1px;font-family:var(--mono);}
+.step-title{font-weight:500;font-size:14px;margin-bottom:3px;}
+.step-desc{font-size:13px;color:var(--muted);line-height:1.5;}
+footer{text-align:center;padding:24px 20px;border-top:1px solid var(--border);margin-top:40px;}
+.footer-text{font-size:11px;color:var(--dim);font-family:var(--mono);line-height:1.8;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">GTR Fest 17</div>
+    <a href="index.html" class="back">← Leaderboard</a>
+  </header>
+
+  <h1>Support</h1>
+  <p class="subtitle">Having trouble submitting your activities? We're here to help.</p>
+
+  <!-- CONTACT -->
+  <div class="section">
+    <div class="section-title">Contact Panitia</div>
+    <div class="card">
+      <div class="contact-item">
+        <div class="contact-icon">💬</div>
+        <div>
+          <div class="contact-label">WhatsApp Group</div>
+          <div class="contact-val">Warga Trevista</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW TO JOIN -->
+  <div class="section">
+    <div class="section-title">How to Join</div>
+    <div class="card steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <div class="step-title">Get your invite code</div>
+          <div class="step-desc">Contact the admin (panitia) to receive your team's invite code. Each team has a unique code.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <div class="step-title">Register</div>
+          <div class="step-desc">Click <strong>Register</strong> on the leaderboard page. Enter your invite code and name to join.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <div class="step-title">Submit your activities</div>
+          <div class="step-desc">Go to the <strong>Submit</strong> tab. Upload a screenshot of your workout from any fitness app (Strava, Garmin, Coros, Apple Health, Suunto, Huawei, etc). The AI will read the stats automatically.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <div class="step-title">Review & Confirm</div>
+          <div class="step-desc">Double-check the extracted data (calories, distance, duration, date). Fix any mistakes, then click <strong>Confirm</strong>. Your points will appear on the leaderboard.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="section">
+    <div class="section-title">Frequently Asked Questions</div>
+    <div class="card">
+      <div class="faq-item">
+        <div class="faq-q">What fitness apps are supported?</div>
+        <div class="faq-a">Any app that shows calorie, distance, duration, and date information. This includes Strava, Garmin Connect, Coros, Apple Health, Suunto, Huawei Health, Nike Run Club, and more.
+
+          <br/><br/>Tip: Take a clear screenshot showing the full activity summary for best results.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">The AI read my stats wrong. What do I do?</div>
+        <div class="faq-a">After the AI analyzes your screenshot, you'll see a review form. You can edit any field (calories, distance, duration, date, activity name, sport type) before confirming. Double-check all numbers before submitting.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">I don't have a screenshot. Can I still submit?</div>
+        <div class="faq-a">Screenshots help verify activities, but if you can't provide one, contact the admin via WhatsApp for manual entry.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">"Invite code limit reached" — what now?</div>
+        <div class="faq-a">Each invite code has a limited number of uses. If yours is full, ask the admin (panitia) to generate a new code or reset the existing one.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">I'm in the wrong team.</div>
+        <div class="faq-a">Your team is determined by the invite code you used. If there's an error, contact the admin to correct it.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How are points calculated?</div>
+        <div class="faq-a">Check the <strong>Scoring Guide</strong> tab on the leaderboard for a full breakdown. Points are based on calories, distance, duration, streaks, and daily calorie rankings.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">What makes an activity valid?</div>
+        <div class="faq-a">Your activity must meet the minimum duration for its sport type (e.g. 20 min for Running, 30 min for Cycling). If calories are recorded, it must also have at least 4 kcal/min. Invalid activities don't earn points.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Can I delete an activity?</div>
+        <div class="faq-a">Activities cannot be deleted from the app. If you submitted wrong data, contact the admin (panitia) for correction.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-text">
+    GTR Fest 17 · Community Fitness Challenge<br/>
+    Powered by Gemini AI
+  </div>
+</footer>
+
+</body>
+</html>
