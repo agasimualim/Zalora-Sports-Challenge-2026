@@ -1,5 +1,5 @@
 // ============================================================
-// GTR FEST 17 CONFIG
+// ZALORA Sports Challenge 2026 CONFIG
 // Fill in your credentials before deploying
 // ============================================================
 
@@ -98,8 +98,8 @@ const CONFIG = {
   SUPABASE_ANON_KEY: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRiaWhleXpjcWlnZGVkdXRhaXlqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMzk1NTIsImV4cCI6MjA5OTgxNTU1Mn0.eDMVEbyXE6zMXsix-HUc1qbdkVmc_sO5JbhKosWMiaA',
 
   // --- Challenge Period ---
-  CHALLENGE_START: '2026-08-02',
-  CHALLENGE_END:   '2026-08-08',
+  CHALLENGE_START: '2026-07-17',
+  CHALLENGE_END:   '2026-08-31',
   CHALLENGE_NAME:  'ZALORA SPORTS CHALLENGE 2026',
 
   // --- Submission Window ---
